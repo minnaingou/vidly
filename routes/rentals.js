@@ -9,8 +9,8 @@ const authMiddleware = require("../middleware/auth");
 
 const router = express.Router();
 
-//mongoose.modelSchemas = {}; //dirty fix for Fawn complaining not mongoose instance
-//Fawn.init(mongoose);
+mongoose.modelSchemas = {}; //dirty fix for Fawn complaining not mongoose instance
+Fawn.init(mongoose);
 
 router.get("/", async (req, res) => {
   const rentals = await Rental.find().sort("-dateOut");
