@@ -1,0 +1,11 @@
+GET http://localhost:3000/api/rentals
+
+###
+POST http://localhost:3000/api/rentals
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTcxMzFkMDc2MmU0NWQzN2IyNmM0MTEiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE2MzUwNjgxNjF9.zKSP7jMYOZEv3wRZq50jWaIQvhE14X_HvK3sdeZEmrY
+Content-Type: application/json
+
+{
+    "customerId": "61752925741d0d570a949029",
+    "movieId": "617529d939061204c302402f"
+}

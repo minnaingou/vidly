@@ -1,0 +1,18 @@
+http://localhost:3000/api/movies
+
+###
+
+POST http://localhost:3000/api/movies
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTcxMzFkMDc2MmU0NWQzN2IyNmM0MTEiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE2MzUwNjgxNjF9.zKSP7jMYOZEv3wRZq50jWaIQvhE14X_HvK3sdeZEmrY
+Content-Type: application/json
+
+{
+    "title": "Terminator",
+    "genreId": "616f052a04949fb55f4ab7d6",
+    "numberInStock": 10,
+    "dailyRentalRate": 5
+}
+
+###
+
+DELETE http://localhost:3000/api/movies/:id

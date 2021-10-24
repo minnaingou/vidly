@@ -1,0 +1,4 @@
+{
+    "_comment": "SET vidly_jwtsecret=jwtSecret1234",
+    "jwtSecretKey": "vidly_jwtsecret"
+}

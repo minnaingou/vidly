@@ -1,0 +1,7 @@
+POST http://localhost:3000/api/auth
+content-type: application/json
+
+{
+    "email": "min@email.com",
+    "password": "min"
+}

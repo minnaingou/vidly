@@ -1,0 +1,25 @@
+http://localhost:3000/api/genres
+
+###
+
+POST http://localhost:3000/api/genres
+Content-Type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTcxM2U5YTg3MTdhYzlhODNjYzM3ZDYiLCJpYXQiOjE2MzQ4MTc2MTN9.O5I2vHrJNkC0l3o2E5D8yS1D2CT0SSCq_bgWyTrpSIU
+
+{
+    "name": "romance"
+}
+
+###
+
+PUT http://localhost:3000/api/genres/:id
+Content-Type: application/json
+
+{
+    "name": "Horror"
+}
+
+###
+
+DELETE http://localhost:3000/api/genres/617156a04f95ae5edcf9e8c6
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTcxMzFkMDc2MmU0NWQzN2IyNmM0MTEiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE2MzQ4MTgyNzh9.AyX09WC-A0huziNHoEI6WIZP1N-1ly4fmyq_W8DB0vg

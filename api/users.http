@@ -1,0 +1,14 @@
+POST http://localhost:3000/api/users
+content-type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTcxMzFkMDc2MmU0NWQzN2IyNmM0MTEiLCJpYXQiOjE2MzQ4MTUxODR9.6dn8Pr5XMWSdh9P5_WapeWYP3GiZZmJxspmi0D8wh0s
+
+{
+    "name": "Min2",
+    "email": "min2@email.com",
+    "password": "min2"
+}
+
+###
+
+http://localhost:3000/api/users/me
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTcxMzFkMDc2MmU0NWQzN2IyNmM0MTEiLCJpYXQiOjE2MzQ4MTUxODR9.6dn8Pr5XMWSdh9P5_WapeWYP3GiZZmJxspmi0D8wh0s

@@ -1,0 +1,17 @@
+http://localhost:3000/api/customers
+
+###
+
+POST http://localhost:3000/api/customers
+content-type: application/json
+x-auth-token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTcxMzFkMDc2MmU0NWQzN2IyNmM0MTEiLCJpc0FkbWluIjp0cnVlLCJpYXQiOjE2MzUwNjgxNjF9.zKSP7jMYOZEv3wRZq50jWaIQvhE14X_HvK3sdeZEmrY
+
+{
+    "name": "Min",
+    "phone": "12345",
+    "isGold": false
+}
+
+###
+
+DELETE http://localhost:3000/api/customers/:id
